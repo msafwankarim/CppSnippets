@@ -1,3 +1,3 @@
 # CppSnippets
 
-** Short Cpp Snippets **
+**Short Cpp Snippets**
