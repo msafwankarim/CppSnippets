@@ -1,3 +1,12 @@
+/*
+#=======================================================================================#
+*	Author: 		Safwan																*
+*	Date:			Monday, ‎22 ‎March ‎2021, ‏‎5:23:34 PM								*
+*	Brief:			Clones windows Administrator Password prompt using WinCred API		*
+*																						*
+#=======================================================================================#
+*/
+
 #include<Windows.h>     //Global functions and types of Win32
 #include<wincred.h>     //Required for Credential UI functions
 #include <iostream>     //Required for console io
@@ -5,14 +14,7 @@
 #pragma comment(lib,"Credui.lib")       //Dynamic linking with Credui.lib
 
 
-/*
-#=======================================================================================#
-*	Author: 		Safwan																*
-*	Date:			Monday, ‎22 ‎March ‎2021, ‏‎5:23:34 PM									*
-*	Brief:			Clones windows Administrator Password prompt using WinCred API		*
-*																						*
-#=======================================================================================#
-*/
+
 
 
 void HideWindow() {
